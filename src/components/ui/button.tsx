@@ -36,7 +36,7 @@ export const Button = () => {
 
   return (
     <div>
-      <div className="hero-button" onClick={login}>
+      <div className="hero-button text-[12px] md:text-[16px]" onClick={login}>
         <button className="super-button">
           <svg
             width="24"

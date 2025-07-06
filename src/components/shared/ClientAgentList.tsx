@@ -47,11 +47,11 @@ export const ClientAgentList = ({ agentsFromServer }: agentsFromServer) => {
 
   return (
     <div>
-      <section className="w-full py-36 relative">
+      <section className="w-full pt-36 relative">
         <Image className="absolute -z-10" src={heroblur} alt="hero blur" />
 
         {/* Filters */}
-        <div className="flex flex-wrap items-center gap-4 px-[100px] mb-6 ">
+        <div className="flex flex-wrap items-center gap-4 px-[30px] md:px-[100px] mb-6 ">
           <input
             type="text"
             placeholder="Search agents..."
@@ -94,7 +94,7 @@ export const ClientAgentList = ({ agentsFromServer }: agentsFromServer) => {
         </div>
 
         {/* Agents List */}
-        <div className="flex flex-wrap px-[100px] gap-6">
+        <div className="flex flex-wrap px-[30px] md:px-[100px] gap-6">
           {filteredAgents.length > 0 ? (
             filteredAgents.map((agent, index) => (
               <AnimatedCard agents={agent} key={agent.id} />
