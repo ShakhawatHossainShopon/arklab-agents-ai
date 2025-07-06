@@ -30,12 +30,14 @@ A responsive and SEO-optimized AI agent listing web app built with **Next.js**, 
 
 2. Install dependencies
 
-npm install
+   ```
+   npm install
+   ```
 
 3. Run locally
-
-npm run dev
-
+   ```
+   npm run dev
+   ```
 4. The Environment varable in .env.example file make this .env file and
 
 5. Ready to Go
