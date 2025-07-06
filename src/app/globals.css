@@ -98,7 +98,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 30px;
   border-bottom: 0.5px solid rgb(70, 37, 192);
   z-index: 999;
 }
@@ -141,7 +140,7 @@ header a:hover {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 14px 28px;
+  padding: 14px 20px;
   background: linear-gradient(145deg, #0f0f0f, #1c1c1c);
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 100px;

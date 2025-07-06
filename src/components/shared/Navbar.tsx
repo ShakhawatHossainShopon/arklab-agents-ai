@@ -4,7 +4,7 @@ import { ButtonNav } from "@/components/ui/buttonNav";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="py-[14px] px-[30px] md:px-[100px]">
       <Link href="/">
         <div className="head-left">
           <svg
