@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <section className="hero px-[100px] container">
+    <section className="hero px-[30px] md:px-[100px] container h-[100vh] md:h-[100vh]">
       <Image className="hero-blur-image" src={heroblur} alt="hero blur" />
       <Image
         className="hero-icons-image parallax"
@@ -18,13 +18,15 @@ const Home = () => {
       <Image className="hero-rings-image" src={heroRings} alt="" />
 
       <div className="content opacity-0 animate-fade-in">
-        <h1 className="font-bold">
+        <h1 className="font-bold text-[46px] md:text-[92px] leading-[72px] md:leading-[106px]">
           Revolutionize your business <br /> operations with <br />
-          <span className="gradient-text">Arklab AI</span>
+          <span className="gradient-text text-[56px] md:text-[86px]">
+            Arklab AI
+          </span>
         </h1>
 
         <div className="hero-paragraph">
-          <h3>
+          <h3 className="text-[16px] md:text-[24px] w-1/2">
             Revolutionize your business operations with our cutting-edge AI
             solutions. From machine learning to intelligent automation, we
             deliver results that matter.

@@ -16,7 +16,7 @@ export const Button = () => {
             router.push("/agents");
           }}
         >
-          <button className="super-button">
+          <button className="super-button text-[12px] md:text-[16px]">
             <span>See Agents</span>
 
             <svg fill="none" viewBox="0 0 24 24" className="arrow">

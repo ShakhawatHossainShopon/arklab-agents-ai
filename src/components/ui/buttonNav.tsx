@@ -15,15 +15,15 @@ export const ButtonNav = () => {
           src={user.photo}
           alt="Profile"
           width={40}
-          className="rounded-full"
+          className="rounded-full hidden md:block"
           height={40}
         />
-        <div>
+        <div className="hidden md:block">
           <p className="text-gray-300 font-bold text-sm">{user.name}</p>
           <p className="text-xs">{user?.email}</p>
         </div>
         <button
-          className="super-button"
+          className="super-button text-[12px] md:text-[16px]"
           onClick={() => {
             logout();
             router.push("/");
@@ -45,7 +45,7 @@ export const ButtonNav = () => {
   }
 
   return (
-    <button className="super-button" onClick={login}>
+    <button className="super-button text-[10px] md:text-[16px]" onClick={login}>
       <svg
         width="24"
         height="24"
@@ -70,7 +70,7 @@ export const ButtonNav = () => {
         ></path>
       </svg>
 
-      <span>Login to With Google</span>
+      <span> Google Login</span>
 
       <svg fill="none" viewBox="0 0 24 24" className="arrow">
         <path
