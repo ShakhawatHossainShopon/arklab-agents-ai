@@ -25,7 +25,7 @@ A responsive and SEO-optimized AI agent listing web app built with **Next.js**, 
 
    ```bash
    git clone git@github.com:ShakhawatHossainShopon/arklab-agents-ai.git
-   cd arklab-ai-catalog
+   cd arklab-agents-ai
    ```
 
 2. Install dependencies
